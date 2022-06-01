@@ -3,6 +3,8 @@ function returnNumsPar(array) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] % 2 === 0) {
       nums.push(array[i])
+    }else{
+      console.log(`${array[i]} não é par!`)
     }
   }
   console.log(nums)
